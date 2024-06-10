@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.sidebar {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #a76147;
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color:#c3846f;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-content {
+  margin-left: 220px; 
+  padding: 20px;
+  
+}
+
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="date"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+.journal-entries {
+  list-style-type: none;
+  padding: 0;
+}
+
+.journal-entry {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px; 
+  margin-bottom: 20px; 
+}
+
+.entry-title {
+  margin-top: 0;
+  margin-bottom: 10px; 
+  font-size: 1.2em;
+  color: #333; 
+}
+
+.entry-date {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 10px; 
+  font-size: 0.9em;
+}
+
+.entry-content {
+  margin-top: 0;
+  color: #555; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .journal-entry {
+    padding: 15px; 
+    margin-bottom: 15px; 
+  }
+
+  .entry-title {
+    font-size: 1.1em;
+  }
+
+  .entry-date {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .journal-entry {
+    padding: 10px; 
+    margin-bottom: 10px; 
+  }
+
+  .entry-title {
+    font-size: 1em;
+  }
+
+  .entry-date {
+    font-size: 0.7em; 
+  }
+}
+
+

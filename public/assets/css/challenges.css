@@ -1,0 +1,115 @@
+
+  * {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.sidebar {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #a76147;
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color:#c3846f;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-content {
+  margin-left: 220px; 
+  padding: 20px;
+  
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size: 26px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.challenge-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.challenge-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.challenge-item h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.challenge-item p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.challenge-item a {
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    width: 100%; 
+    position: static; 
+    padding-top: 0; 
+  }
+  
+  .main-content {
+    margin-left: 0; 
+  }
+  
+  .container {
+    padding: 10px; 
+  }
+  
+  .challenge-item {
+    padding: 15px; 
+  }
+}
+  
